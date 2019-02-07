@@ -16,6 +16,8 @@
     <parameter name="GitHubRepo" type="text" prompt="Github repo name for this module" default="${PLASTER_PARAM_ModuleName}"/>
     <parameter name="GitHubUserName" type="user-fullname" prompt="GitHub username" default="${PLASTER_PARAM_FullName}"/>
     <parameter name="FullName" type="text" prompt="Module author's' name" default="${PLASTER_PARAM_GitHubUserName}"/>
+    <parameter name="AppVeyorProjectURI" type="text" prompt="URI to AppVeyor project" default="https://ci.appveyor.com/project/${PLASTER_PARAM_GitHubUserName}/${PLASTER_PARAM_ModuleName}"/>
+    <parameter name="AppVeyorBadgeMarkdownURI" type="text" prompt="URI to Appveyor markdown badge" default=""/>
   </parameters>
   <content>
     <message>      Creating folder structure    </message>

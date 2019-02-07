@@ -1,3 +1,4 @@
+[![Build status](<%= $PLASTER_PARAM_AppVeyorBadgeMarkdownURI %>)](<%= $PLASTER_PARAM_AppVeyorProjectURI%>)
 # <%= $PLASTER_PARAM_ModuleName %>
 
 <%= $PLASTER_PARAM_ModuleDesc %>
@@ -21,6 +22,3 @@ For more information
 * [<%= $PLASTER_PARAM_ModuleName %>.readthedocs.io](http://<%= $PLASTER_PARAM_ModuleName %>.readthedocs.io)
 * [github.com/<%= $PLASTER_PARAM_GitHubUserName %>/<%= $PLASTER_PARAM_GitHubRepo %>](https://github.com/<%= $PLASTER_PARAM_GitHubUserName %>/<%= $PLASTER_PARAM_GitHubRepo %>)
 * [<%= $PLASTER_PARAM_GitHubUserName %>.github.io](https://<%= $PLASTER_PARAM_GitHubUserName %>.github.io)
-
-
-This project was generated using [Kevin Marquette](http://kevinmarquette.github.io)'s [Full Module Plaster Template](https://github.com/KevinMarquette/PlasterTemplates/tree/master/FullModuleTemplate).
